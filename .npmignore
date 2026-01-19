@@ -5,3 +5,4 @@ node_modules/
 *.tsx
 tsconfig.json
 tsup.config.ts
+assets/demo.gif
