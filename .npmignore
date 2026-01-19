@@ -1,0 +1,7 @@
+src/
+node_modules/
+*.log
+*.ts
+*.tsx
+tsconfig.json
+tsup.config.ts
