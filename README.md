@@ -19,13 +19,13 @@ npm install solitaire-celebration
 
 ## React Usage
 
-Import the React component and add it to your JSX:
-
 ```tsx
 import { SolitaireCelebrationReact } from "solitaire-celebration";
 
 <SolitaireCelebrationReact />;
 ```
+
+You can find code example [here](./demo/react/src/App.tsx)
 
 Props (all optional, defaults shown):
 
@@ -45,22 +45,22 @@ Props (all optional, defaults shown):
 
 Import the vanilla class and create a new instance:
 
-```ts
-import { SolitaireCelebration as VanillaCelebration } from "solitaire-celebration";
-
-const confetti = new VanillaCelebration({
-  container: document.body,
-  cardWidth: 65,
-  cardHeight: 65,
-  gravity: 1800,
-});
+```html
+<script src="https://cdn.jsdelivr.net/npm/solitaire-celebration@1.1.0/dist/index.iife.js"></script>
+<script>
+  const celebration = new window.SolitaireCelebration.SolitaireCelebration({
+    container: document.body,
+  });
+</script>
 ```
 
 To remove the canvas and stop animation:
 
 ```ts
-confetti.destroy();
+celebration.destroy();
 ```
+
+You can find code example [here](./demo/index.html)
 
 ## Customization
 

@@ -147,7 +147,7 @@ export class SolitaireCelebration {
         Math.round(c.x),
         Math.round(c.y),
         cardWidth,
-        cardHeight
+        cardHeight,
       );
     }
   }
@@ -159,3 +159,5 @@ export class SolitaireCelebration {
     if (this.canvas.parentNode) this.canvas.parentNode.removeChild(this.canvas);
   }
 }
+
+export default SolitaireCelebration;
