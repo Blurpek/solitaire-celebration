@@ -2,6 +2,8 @@
 
 A lightweight canvas-based classic windows alike **solitaire card celebration animation** for **React** and **vanilla JavaScript**.
 
+[Live demo](https://blurpek.github.io/solitaire-celebration/)
+
 ![Demo](/assets/demo.gif)
 
 ## Features
@@ -60,7 +62,8 @@ To remove the canvas and stop animation:
 celebration.destroy();
 ```
 
-You can find code example [here](./demo/index.html)
+You can find code example [here](./docs/index.html)
+That's actually the [live demo](https://blurpek.github.io/solitaire-celebration/) code.
 
 ## Customization
 
