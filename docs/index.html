@@ -10,7 +10,9 @@
     <button onclick="stop()">Clear</button>
     <script src="https://cdn.jsdelivr.net/npm/solitaire-celebration@1.1.0/dist/index.iife.js"></script>
     <script>
-      let celebration;
+      let celebration = new window.SolitaireCelebration.SolitaireCelebration({
+        container: document.body,
+      });
 
       function start() {
         celebration?.destroy?.();
