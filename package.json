@@ -1,6 +1,6 @@
 {
   "name": "solitaire-celebration",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Canvas-based solitaire card celebration animation for React and vanilla JS",
   "type": "module",
   "main": "dist/index.cjs",
